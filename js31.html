@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style31.css">
+    <script src="script31.js"></script>
+</head>
+<body>
+    <div id="ip">
+        <label class="lab">Name</label><br>
+        <input type="text" placeholder="Enter Name" id="name"><br>
+        <label class="lab">Roll No.</label><br>
+        <input type="text" placeholder="Enter Roll No." id="roll"><br>
+        <table id="marks">
+            <tr>
+                <th>
+                    Subject
+                </th>
+                <th>
+                    Marks
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    HTML
+                </td>
+                <td>
+                    <input type="text" id="hm"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    CSS
+                </td>
+                <td>
+                    <input type="text" id="cm"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Javascript
+                </td>
+                <td>
+                    <input type="text" id="jm"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    BootStrap
+                </td>
+                <td>
+                    <input type="text" id="bm"><br>
+                </td>
+            </tr>
+        </table>
+        <button onclick="average(), show()" id="btn">Show Result</button>
+    </div>
+    <div id="data">
+        <table>
+            <tr>
+                <td>
+                    <b>Total Marks</b>
+                </td>
+                <td>
+                    <input type="text" readonly id="tm">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Average</b>
+                </td>
+                <td>
+                    <input type="text" readonly id="av">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Grade</b>
+                </td>
+                <td>
+                    <input type="text" readonly id="grd"><br>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
